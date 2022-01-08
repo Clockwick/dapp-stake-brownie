@@ -5,7 +5,8 @@ from brownie import (
     MockV3Aggregator,
     Contract,
     MockWETH,
-    MockDAI
+    MockDAI,
+    LinkToken
 )
 from web3 import Web3
 
