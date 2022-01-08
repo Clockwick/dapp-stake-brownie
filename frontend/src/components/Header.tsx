@@ -50,7 +50,7 @@ export const Header = () => {
           variant="contained"
           onClick={() => activateBrowserWallet()}
         >
-          Connect
+          Connect to Metamask
         </Button>
       )}
     </div>
