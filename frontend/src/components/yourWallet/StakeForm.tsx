@@ -79,7 +79,7 @@ export const StakeForm = ({ token }: StakeFormProps) => {
           size="large"
           disabled={isMining}
         >
-          {isMining ? <CircularProgress size={26} /> : "Stake!!!"}
+          {isMining ? <CircularProgress size={26} /> : "Stake"}
         </Button>
       </div>
       <Snackbar

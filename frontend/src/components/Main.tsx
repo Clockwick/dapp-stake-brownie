@@ -8,6 +8,7 @@ import dai from "../dai.png";
 import eth from "../eth.png";
 import dapp from "../dapp.png";
 import { makeStyles } from "@material-ui/core";
+import { TokenFarmContract } from "./tokenFarmContract";
 
 export type Token = {
   image: string;
@@ -57,7 +58,8 @@ export const Main = () => {
   return (
     <>
       <h2 className={classes.title}>Dapp Token App</h2>
-      <YourWallet supportedTokens={supportedTokens} />;
+      <YourWallet supportedTokens={supportedTokens} />
+      <TokenFarmContract supportedTokens={supportedTokens} />
     </>
   );
 };
